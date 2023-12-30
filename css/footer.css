@@ -1,0 +1,40 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100dvw;
+    padding-bottom: 30px;
+    padding-top: 20px;
+   border-top: 1px; 
+   background-color: white;
+} 
+
+
+.footer-block{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer-icons__desc{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.footer-icons_img{
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons{
+    font size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+}
